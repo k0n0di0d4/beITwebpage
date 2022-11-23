@@ -1,0 +1,39 @@
+
+#nav h1 {
+    border:10px solid;
+    text-align: center;
+    width: fit-content;
+    display: inline-block;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 13px;
+  text-decoration: none;
+
+}
+#nav {
+  position: fixed; /* or absolute */
+  top: 2%;
+  left: 50%;
+}
+
+.navbar {
+    width: fit-content;
+    display: inline-block;
+
+}

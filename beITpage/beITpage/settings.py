@@ -32,13 +32,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'beITdb',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # own
+    'beITdb.apps.BeitdbConfig',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
